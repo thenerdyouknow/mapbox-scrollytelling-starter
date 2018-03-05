@@ -2,14 +2,14 @@ mapboxgl.accessToken = 'pk.eyJ1IjoidGhlbmVyZHlvdWtub3ciLCJhIjoiY2pkeWlwNTk0MTZ3Z
 
 var chapters = {
     'part-1': {
-        center: [82.8, 23.88],
-        zoom: 3.5,
+        center: [79.8, 20.88],
+        zoom: 4.3,
         bearing: 0,
         pitch: 0,
     },
     'part-2': {
         center: [77.1016, 28.6375],
-        zoom: 10,
+        zoom: 11.1,
         bearing: 0,
         pitch: 0,
     },
@@ -20,22 +20,72 @@ var chapters = {
         pitch: 52,
     },
     'part-4': {
+        center: [ 77.59796,
+      12.96991],
+        zoom: 11.1,
+        bearing: 0,
+        pitch: 0,
+    },
+    'part-5': {
+        center: [  80.27,
+      13.09],
+        zoom: 11.1,
+        bearing: 0,
+        pitch: 0,
+    },
+    'part-6': {
+        center: [88.33778,
+      22.54111],
+        zoom: 11.1,
+        bearing: 0,
+        pitch: 0,
+    },
+    'part-7': {
+        center: [78.46667,
+      17.36667],
+        zoom: 11.1,
+        bearing: 0,
+        pitch: 0,
+    },
+    'part-8': {
+        center: [76.266935,
+      9.901199],
+        zoom: 11.1,
+        bearing: 0,
+        pitch: 0,
+    },
+    'part-9': {
+        center: [ 72.58,
+      23.03],
+        zoom: 11.1,
+        bearing: 0,
+        pitch: 0,
+    },
+    'part-10': {
+        center: [74.030543,
+      15.29299],
+        zoom: 11.1,
+        bearing: 0,
+        pitch: 0,
+    },
+    'part-11': {
         center: [73.84778,
       18.52361],
         zoom: 11.1,
         bearing: 0,
         pitch: 0,
-    }
+    },
 };
+
 
 var map;
 
 window.onload = function() {
     map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/thenerdyouknow/cjdzxnisua93j2snuewdzhhkv',
-        center: [82.8, 23.88],
-        zoom: 4,
+        style: 'mapbox://styles/thenerdyouknow/cjed68sma2pud2rmt23um7tsr',
+        center: [79.8, 20.88],
+        zoom: 4.3,
         bearing: 0,
         pitch: 0,
     });
